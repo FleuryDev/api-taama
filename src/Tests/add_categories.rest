@@ -1,0 +1,39 @@
+POST http://localhost:3000/api/add-categorie HTTP/1.1
+Content-Type: application/json
+
+[
+    {
+        "title": "Jeunesse",
+        "slug": "jeunesse"
+
+    },
+    {
+        "title": "Science-Fiction",
+        "slug": "science-fiction"
+    }
+    ,
+    {
+        "title": "Policier",
+        "slug": "policier"
+    },
+    {
+        "title": "Horreur",
+        "slug": "horreur"
+    },
+    {
+        "title": "BD",
+        "slug": "bd"
+    },
+    {
+        "title": "Manga",
+        "slug": "manga"
+    },
+    {
+        "title": "Comics",
+        "slug": "comics"
+    },
+    {
+        "title": "Humour",
+        "slug": "humour"
+    }
+]

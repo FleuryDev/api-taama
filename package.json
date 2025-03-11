@@ -1,5 +1,5 @@
 {
-  "name": "model-app-1",
+  "name": "inov-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "15.2.1",
+    "prisma": "^6.4.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "react-dom": "^19.0.0"
   }
 }
